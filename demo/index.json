@@ -26,7 +26,23 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "terminals": [
+      {
+        "name": "Master",
+        "command": "ls -lstr",
+        "target": "host01"
+      },
+      {
+        "name": "host1",
+        "command": "ls -lstr",
+        "target": "host01"
+      },
+      {
+        "name": "host2",
+        "command": "ls -lstr",
+        "target": "host01"
+      }
+    ]
   },
   "backend": {
     "imageid": "ansible-centos"
