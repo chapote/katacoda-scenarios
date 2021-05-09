@@ -25,14 +25,13 @@
       "text": "finish.md"
     }
   },
-    "environment": {
-      "terminals": [
-          {"name": "Terminal 2", "target": "host01"},
-          {"name": "host1", "command": "ls -lstr", "target": "host01"},
-          {"name": "host2", "command": "pwd", "target": "host01"}
-      ],
-      "uilayout": "terminal"
-   }
+  "environment": {
+    "terminals": [
+        {"name": "Terminal 2", "target": "host01"},
+        {"name": "host1", "command": "ls -lstr", "target": "host01"},
+        {"name": "host2", "command": "pwd", "target": "host01"}
+    ],
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ansible-centos"
