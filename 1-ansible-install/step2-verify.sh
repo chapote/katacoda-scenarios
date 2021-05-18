@@ -1,5 +1,5 @@
 rc=$(ansible --version)
-if [ $rc -eq 0 ]
+if [ "$rc" ]
 then
 	echo "Well done!"
 	exit 0
