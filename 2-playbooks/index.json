@@ -1,6 +1,6 @@
 {
-	"title": "Coding Exercise 2 - hosts Ansible",
-	"description": "Learn how to manage hosts with Ansible",
+	"title": "Coding Exercise 2 - Playbooks",
+	"description": "Learn how to manage playbooks with Ansible",
 	"difficulty": "beginner",
 	"time": "20 minutes",
 	"details": {
