@@ -1,1 +1,1 @@
-ansible localhost -m ping{{execute}}
+`ansible localhost -m ping`{{execute}}
